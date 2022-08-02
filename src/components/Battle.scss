@@ -1,0 +1,45 @@
+.battle__container {
+    align-items: center;
+    color: black;
+    justify-content: space-evenly;
+    display: flex;
+
+    .battle__center {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .battle__pokemon-image {
+        height: 200px;
+    }
+
+    .battle__pokemon-stats {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        width: 100%;
+    }
+
+    .battle__button {
+        height: 100px;
+        border-radius: 50%;
+        cursor: pointer;
+        width: 100px;
+
+        &:hover {
+            background-color: red;
+            color: white;
+        }
+    }
+
+    .battle__player {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 500px;
+    }
+}
